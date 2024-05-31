@@ -12,7 +12,7 @@ class Resume extends Component {
         <div className="flex justify-center pb-8 pt-10 md:pt-14">
           <img
             className="shadow-2xl lg:hover:shadow-resume-green transition duration-500"
-            src={require("../images/msftaimua.webp")}
+            src={require("../images/cv.webp")}
             alt="resume"
             height={1000}
             width={1000}
