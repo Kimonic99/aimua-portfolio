@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FaDev, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaMedium, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default class Footer extends Component {
   render() {
@@ -23,18 +23,18 @@ export default class Footer extends Component {
           <FaGithub className="text-5xl hover:text-gray-500" />
         </a>
         <a
-          href={"https://dev.to/kimonic"}
+          href={"https://medium.com/@aimuaimarengiaye"}
           target={"_blank"}
           rel="noreferrer"
-          aria-label="dev.to"
+          aria-label="medium.com"
         >
-          <FaDev className="text-5xl hover:text-gray-500" />
+          <FaMedium className="text-5xl hover:text-gray-500" />
         </a>
         <a
           href={"https://twitter.com/ras_kimonic"}
           target={"_blank"}
           rel="noreferrer"
-          aria-label="dev.to"
+          aria-label="twitter.com"
         >
           <FaTwitter className="text-5xl hover:text-gray-500" />
         </a>
